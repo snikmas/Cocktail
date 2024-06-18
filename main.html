@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/aside.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>CocktailMenu</h1>
+  </header>
+  <div class="main">
+    <aside class="filter">
+      <h5>Cocktail Filters</h5>
+      <ul>
+        <li>
+          Name:<input type="text" class="name" onkeydown="">
+        </li>
+        <li>
+          Category:<select class="calegory"></select>
+          <div class="options"></div>
+        </li>
+      </ul>
+      <button class="go">Search</button>
+    </aside>
+  <div class="results_grid">
+  </div>
+  
+  <script src="js/main.js"></script>
+
+  <script type="module" src="js/categories.js"></script>
+</body>
+</html>

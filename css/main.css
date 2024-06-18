@@ -1,0 +1,26 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+@font-face {
+  src: url(fonts/neuropol.otf);
+  font-family: 'Neuropol X Rg';
+}
+
+
+body {
+  font-family:'Neuropol X Rg';
+  color:white;
+  background-color: rgb(23, 23, 23);
+  
+}
+
+header {
+  font-size: 7rem;
+  text-align: center;
+  padding:2rem;
+  border:1px white solid;
+}
+
